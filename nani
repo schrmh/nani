@@ -19,4 +19,4 @@ case $number in
 		echo "Somebody was too dumb to count. Report it to @derberg:matrix.org"
 esac
 sleep 3
-nano $1
+nano "$@"
